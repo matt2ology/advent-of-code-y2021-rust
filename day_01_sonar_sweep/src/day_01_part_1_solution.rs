@@ -1,7 +1,7 @@
 use std::fs; // for reading file contents from file system (fs)
 
 /**
-Rust solution to Advent of Code 2021 - Day 1: Sonar Sweep 
+Rust solution to Advent of Code 2021 - Day 1: Sonar Sweep
  */
 fn main() {
     let file_input_path = "./../../input_files/day_01/input.txt";
