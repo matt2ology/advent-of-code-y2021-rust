@@ -28,7 +28,6 @@ fn main() {
         // Add values in sliding window together
         let sliding_window_3_sum: u32 = sliding_window_3.iter().sum();
 
-        // if let no previous value, set previous value to first value in sliding window
         if previous_value == 0 {
             println!("{} (N/A - no previous sum)", previous_value);
         } else if sliding_window_3_sum > previous_value {
